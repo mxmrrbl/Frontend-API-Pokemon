@@ -1,0 +1,88 @@
+body{
+    background-image: url(https://images5.alphacoders.com/614/614955.png);
+    background-size: cover;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    a{
+        text-decoration: none;
+        color: #0F0238;
+    }
+
+    #enlaces, .titulo{
+        background-color: rgb(255, 255, 255);
+        padding: 20px;
+        border-radius: 30px;
+        font-family: 'Pokemon Solid', sans-serif;
+        font-size: 20px;
+    }
+
+    .titulo{
+        font-size: 35px;
+    }
+
+}
+
+.login{
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    border-radius: 30px;
+
+    .btn{
+        margin: 10px;
+    }
+
+    input{
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: right;
+
+    a{
+        color: #0F0238;
+        margin: 20px;
+        background-color: white;
+        border-radius: 30px;
+        text-decoration: none;
+        padding: 10px;
+    }
+}
+
+.row{
+    width: 100%;
+
+    .col{
+        text-align: center;
+        font-family: 'Pokemon Solid', sans-serif;
+        background-color: rgb(255, 255, 255);
+        padding: 10px;
+        border-radius: 30px;
+        margin: 5px;
+
+    }
+}
+ol{
+    padding-left: 0;
+}
+.evento, .pokemon, .alert, .rpokemon, .rmaestro{
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    border-radius: 30px;
+    margin: 10px;
+}
+
+.form-group{
+    margin: 10px;
+}
+
